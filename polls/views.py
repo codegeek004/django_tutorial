@@ -23,13 +23,21 @@ class ResultsView(generic.DetailView):
     model = Question
     template_name = "polls/results.html"
 
+# def index(request):
+#     latest_question_list = Question.objects.order_by("-pub_date")[:5]
+#     output = ", ".join([q.question_text for q in latest_question_list])
+#     context = {
+#         "latest_question_list": latest_question_list,
+#     }
+#     return HttpResponse(request, "polls/index.html", context)
+
 def index(request):
     latest_question_list = Question.objects.order_by("-pub_date")[:5]
-    output = ", ".join([q.question_text for q in latest_question_list])
     context = {
         "latest_question_list": latest_question_list,
     }
-    return HttpResponse(request, "polls/index.html", context)
+    return render(request, "polls/index.html", context)
+
 
 def detail(request,question_id):
     try:
