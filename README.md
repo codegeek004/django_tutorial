@@ -11,12 +11,16 @@ Else you can install it using
 ```sudo apt install django```
 To get a new django project, run the following command
 ```django-admin startproject mysite django_tutorial```
-This will create something like this:
-```djangotutorial/
+This will create a directory mysite (which is our project) and a manage.py file which is responsible for executing your application(s) and will look  something like this:
+```
+djangotutorial/
     manage.py
     mysite/
         __init__.py
         settings.py
         urls.py
         asgi.py
-        wsgi.py```
+        wsgi.py
+```
+By default there are these files in the project. You can create multiple applications in django all at once\n. lets look at them one by onr
+
