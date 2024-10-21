@@ -22,6 +22,6 @@ djangotutorial/
         asgi.py
         wsgi.py
 ```
-By default there are these files in the project. You can create multiple applications in django all at once.< br / >
+<p>By default there are these files in the project. You can create multiple applications in django all at once.<br></p>
 ldknwkejb
 
