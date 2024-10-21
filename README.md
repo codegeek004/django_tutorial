@@ -27,6 +27,7 @@ The __init__.py file is used to indicate that this directory should be treated a
 The settings.py file contains all the configuration settings that will dictate how your django application will behave.<br></p>
 Key components in settings:
 <li>DEBUG=True. It turns on or off the debug mode in your application. It should be turned off in production mode</li>
+<li>`a`</li>
 
 
 
