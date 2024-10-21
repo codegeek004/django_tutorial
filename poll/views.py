@@ -15,12 +15,17 @@ def home(request):
     return render(request, 'poll/home.html', context)
 
 def create(request):
+    print('create mai gaya')
     if request.method == 'POST':
+        print('post mai gaya')
         form = CreatePollForm(request.POST)
+        print('form: ', form)
         if form.is_valid():
+            print('form is valid k andar')
             form.save()
             return redirect('poll:home')
     else:
+        print('else mai gaya')
         form = CreatePollForm()
     context = {
         'form' : form
