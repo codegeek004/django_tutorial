@@ -12,11 +12,11 @@ Else you can install it using
 To get a new django project, run the following command
 ```django-admin startproject mysite django_tutorial```
 This will create something like this:
-djangotutorial/
+```djangotutorial/
     manage.py
     mysite/
         __init__.py
         settings.py
         urls.py
         asgi.py
-        wsgi.py
+        wsgi.py```
