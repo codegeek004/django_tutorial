@@ -23,6 +23,12 @@ djangotutorial/
         wsgi.py
 ```
 <p>By default there are these files in the project. You can create multiple applications in django all at once.<br>
-The ``` __init__.py ``` file is used to indicate that this directory should be treated as a python package.<br>
+The __init__.py file is used to indicate that this directory should be treated as a python package.<br>
+The settings.py file contains all the configuration settings that will dictate how your django application will behave.<br>
+Key components in settings:
+> DEBUG=True. It turns on or off the debug mode in your application. It should be turned off in production mode.
+```
+lwnelkfjl
+```
 
 
