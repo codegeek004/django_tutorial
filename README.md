@@ -46,7 +46,7 @@ After successfully creating the project you need to make applications. For creat
 <li>
   In views.py file you define the views for your application. Views handle the logic behind what data is displayed and how it is presented to the user.
 </li>
-<p>To run your application run the command <br><code>python manage.py runserver</code>. <br>If you have any changes in your database run the commands <pre><code>python manage.py makemigrations
+<p>To run your application run the command <br><pre><code>python manage.py runserver</code></pre>. <br>If you have any changes in your database run the commands <pre><code>python manage.py makemigrations
 python manage.py migrate</code></pre></p>
   
   
