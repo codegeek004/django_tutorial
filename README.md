@@ -50,4 +50,4 @@ After successfully creating the project you need to make applications. For creat
 python manage.py migrate</code></pre></p>
   
   
-
+#heading
